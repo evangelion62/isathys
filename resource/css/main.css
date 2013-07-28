@@ -128,6 +128,7 @@ body, ul, li,.footer, .header, .nav{
 
 .nav .conect form input{
 	margin: 0px;
+	margin-bottom:3px;
 	padding: 0px;
 	width: 128px;
 }
@@ -171,7 +172,9 @@ body{
 .form input{
 	background-image:url("img/1334.png") ;	
 }
-
+.conect input{
+	background-image:url("img/1334.png") ;
+}
 .header{
 	background-color: gray;
 	background-image: url("img/terabaniere.jpg");
