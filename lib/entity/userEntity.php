@@ -7,7 +7,7 @@
  * 	
  */
 
-class class_name {
+class UserEntity {
 	private $_login;
 	private $_pass;
 	private $_mail;

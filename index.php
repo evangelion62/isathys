@@ -9,4 +9,4 @@
 require_once 'conf/conf.php';
 
 //instansiation du kernel et execution
-$kernel = new Kernel($param);
+$kernel = new Kernel(array());
