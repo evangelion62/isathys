@@ -1,7 +1,6 @@
 <?php
 class Requet {
-	private $_controler;
-	private $_methode;
+	private $_GET;
 	
 	public function __construct(){
 		
