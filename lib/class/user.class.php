@@ -1,13 +1,18 @@
 <?php
 /*
- * class représant une entité utilisateur
+ * class reprÃ©sant une entitÃ© utilisateur
+ * methode public
+ * 	login
+ * 	logout
+ * 	
  */
 
 class class_name {
 	private $_login;
 	private $_pass;
 	private $_mail;
-	function function_name() {
+	
+	public function login(array $param) {
 		;
 	}
 }
