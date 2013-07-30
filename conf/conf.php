@@ -23,20 +23,6 @@ session_start();
  * configuration de l'autoload de class
  */
 function myAutoloader($class) {
-	if (is_file('lib/class/'.$class.'.class.php')){
-		require_once 'lib/class/'.$class.'.class.php';
-		return true;
-	}elseif (is_file('lib/controler/'.$class.'.php')){
-		require_once 'lib/controler/'.$class.'.php';
-		return true;
-	}elseif (is_file('lib/entity/'.$class.'.php')) {
-		require_once 'lib/entity/'.$class.'.php';
-		return true;
-	}elseif (is_file('lib/manager/'.$class.'.php')) {
-		require_once 'lib/manager/'.$class.'.php';
-		return true;
-	}else{
-		return false;
-	}
+	require '../'.str_replace('\\', '/', $class).'.class.php';
 }
 spl_autoload_register('myAutoloader');
