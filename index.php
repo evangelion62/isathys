@@ -26,4 +26,4 @@ if (!is_file(VIEW_PATH.$layout.'/'.$layout.VIEW_EXT)){
 }
 require_once VIEW_PATH.$layout.'/'.$layout.VIEW_EXT;
 
-//test de modification avec eclipse
+//test de modification branche refonte
