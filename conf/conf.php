@@ -23,6 +23,6 @@ session_start();
  * configuration de l'autoload de class
  */
 function myAutoloader($class) {
-	require '../'.str_replace('\\', '/', $class).'.class.php';
+	require str_replace('\\', '/', $class).'.class.php';
 }
 spl_autoload_register('myAutoloader');
