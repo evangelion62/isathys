@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<routes>
+  <route url="/" module="article" action="index" />
+  <route url="/article-(.+)-([0-9]+)\.html" module="article" action="show" vars="slug,id"/>
+  <route url="/user.html" module="User" action="index" />
+</routes>

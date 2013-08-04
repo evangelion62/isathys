@@ -14,7 +14,7 @@
  */
 namespace lib\app;
 
-class HTTPRequest
+class HTTPRequest extends ApplicationComponent
 {
 	public function cookieData($key)
 	{
