@@ -10,7 +10,7 @@
     	<header class="header">
     		<img id="headerImg" alt="isathys" src="web/css/img/isathys.png">
     	</header>
-    	<?php require_once 'nav.html.php';?>
+    	<?php require_once 'nav.php';?>
     	<section class="section">
    			<?php echo $content;?>
 

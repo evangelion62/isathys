@@ -3,7 +3,7 @@ namespace app\front;
 
 class FrontApplication extends \lib\app\Application{
 	public function __construct(){
-		$this->name = 'Front' ;
+		$this->name = 'front' ;
 		parent::__construct();
 	}
 	

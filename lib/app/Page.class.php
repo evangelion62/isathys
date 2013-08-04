@@ -32,7 +32,7 @@ class Page extends ApplicationComponent
     $content = ob_get_clean();
      
     ob_start();
-      require 'app/'.$this->app->name().'/Templates/layout.php';
+      require '../app/'.$this->app->name().'/templates/layout.php';
     return ob_get_clean();
   }
    

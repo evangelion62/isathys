@@ -72,6 +72,6 @@
     				</div>
     			</li>
     			<li><a href="?controller=home">Espace WoW</a></li>																								
-    			<?php require_once 'conect.html.php';?>
+    			<?php require_once 'conect.php';?>
     		</ul>
     	</nav>

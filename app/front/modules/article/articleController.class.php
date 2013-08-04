@@ -1,9 +1,9 @@
 <?php
 namespace app\front\modules\article;
  
-class NewsController extends \lib\app\BackController
+class ArticleController extends \lib\app\BackController
 {
-  public function executeIndex(\Library\HTTPRequest $request)
+  public function executeIndex(\lib\app\HTTPRequest $request)
   {
     $nombreNews = $this->app->config()->get('nombre_news');
     $nombreCaracteres = $this->app->config()->get('nombre_caracteres');
@@ -12,7 +12,7 @@ class NewsController extends \lib\app\BackController
     $this->page->addVar('title', 'Liste des '.$nombreNews.' dernières news');
      
     // On récupère le manager des news.
-    $manager = $this->managers->getManagerOf('News');
+    $manager = $this->managers->getManagerOf('Article');
      
     // Cette ligne, vous ne pouviez pas la deviner sachant qu'on n'a pas encore touché au modèle.
     // Contentez-vous donc d'écrire cette instruction, nous implémenterons la méthode ensuite.

@@ -1,5 +1,5 @@
 <?php
-namespace Library\Entities;
+namespace lib\Entities;
  
 class News extends \lib\app\Entity
 {
