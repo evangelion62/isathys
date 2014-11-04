@@ -1,0 +1,12 @@
+body{
+	background-color:#000;
+	background-image: url("../img/bannerTERA.jpg");
+	background-repeat: no-repeat;
+	background-size: 1600px;
+	background-position:50% -200px;
+}
+
+.container{
+	margin-top:300px;
+	background-color: white;
+}

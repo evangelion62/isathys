@@ -1,7 +1,7 @@
 <?php
 namespace controller;
 
-class Error extends \lib\Controller{
+final class Error extends \lib\Controller{
 	//action 404
 	public function error404(){
 		header("HTTP/1.0 404 Not Found");

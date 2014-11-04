@@ -23,5 +23,5 @@ spl_autoload_register('autoload');
 /*
  * definition des varriable $controller et $action
  */
-$Controller = (empty($_GET['controller'])) ? '\controler\Index' : '\controller\\'.ucfirst($_GET['controller']);
-$action = (empty($_GET['action'])) ? 'default' : $_GET['action'];
+$Controller = (empty($_GET['controller'])) ? '\controller\Index' : '\controller\\'.ucfirst($_GET['controller']);
+$action = (empty($_GET['action'])) ? 'defaultAction' : $_GET['action'];
