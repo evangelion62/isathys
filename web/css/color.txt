@@ -1,0 +1,4 @@
+#1d222c (fond moyen)
+#3c4658 (fond claire)
+#161d26 (fond foncé)
+#1d5e98 (bleu)
