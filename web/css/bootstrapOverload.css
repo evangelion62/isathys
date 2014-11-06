@@ -1,12 +1,38 @@
+@font-face {
+    font-family: 'isathys';
+    src: url("../fonts/isathys.ttf");
+}
+
 body{
 	background-color:#000;
-	background-image: url("../img/bannerTERA.jpg");
+	background-image: url("../img/bannerWOD.jpg");
 	background-repeat: no-repeat;
 	background-size: 1600px;
 	background-position:50% -200px;
 }
 
-.container{
-	margin-top:300px;
+.warpper{
 	background-color: white;
+}
+
+.title{
+	position:relative;
+	top:100px;
+	height:350px;
+	text-align:center;
+	color:#006A9B;
+	text-shadow:0px 0px 5px #303741;
+	font-family: 'isathys', Arial, serif;
+	font-size: 200px;
+}
+
+.navContainer{
+	padding: 0px;
+}
+
+.navbar ,.navbar-inverse{
+	margin: 0px;
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
